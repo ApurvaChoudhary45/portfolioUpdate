@@ -47,7 +47,7 @@ const projects = [
 ];
 
 
-const page = () => {
+const Page = () => {
   const [daark, setdaark] = useState(false)
   const container = (delay) => ({
     initial: { opacity: 0, y: -100 },
@@ -160,4 +160,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
