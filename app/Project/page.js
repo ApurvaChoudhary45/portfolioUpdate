@@ -134,20 +134,20 @@ const Page = () => {
               </div>
 
               <div className="flex justify-between items-center mt-10">
-                <a
-                  href="#"
+                <Link
+                  href={item.github}
                   className="text-white bg-gray-600 p-3 md:text-lg text-sm rounded-2xl font-medium hover:"
                   target="_blank"
                 >
                   GitHub
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href={item.live}
                   className="text-white bg-green-400 md:text-lg text-sm font-medium p-3 rounded-3xl"
                   target="_blank"
                 >
                   Live Demo
-                </a>
+                </Link>
               </div>
             </div>
             )
