@@ -65,8 +65,8 @@ const Page = () => {
 
   return (
     <div>
-      <div className='relative min-h-screen'>
-        <img src={daark ? "https://images.pexels.com/photos/1213997/pexels-photo-1213997.jpeg" : 'https://images.pexels.com/photos/599708/pexels-photo-599708.jpeg'} alt="" className='absolute inset-0 w-full h-full object-fit' />
+      <div className='relative h-1/2'>
+        <img src={daark ? "https://images.pexels.com/photos/1213997/pexels-photo-1213997.jpeg" : 'https://images.pexels.com/photos/937782/pexels-photo-937782.jpeg'} alt="" className='absolute inset-0 w-full  h-full object-fill blur-xs' />
             
         <div className='relative z-50 md:flex justify-center items-center md:px-20 px-10 py-7'>
           <div >
@@ -74,9 +74,9 @@ const Page = () => {
           </div>
           <motion.nav className="w-full px-8 py-4 flex justify-end items-center gap-8 text-white " variants={container(1)} initial='initial' animate='animate'>
             <Link href='/' className='bg-gray-700 p-3 rounded-4xl hover:bg-gray-800 md:block hidden'>Back to Home</Link>
-            <Link href="https://x.com/home?lang=en-in" className='hover:text-blue-400 text-3xl font-extralight'><FaSquareTwitter /></Link>
-            <Link href="https://github.com/ApurvaChoudhary45" className='hover:text-gray-300 text-3xl font-extralight'><FaGithub /></Link>
-            <Link href="https://www.linkedin.com/in/apurva-singh-choudhary-374991223/" className='hover:text-blue-700 text-3xl font-extralight'><FaLinkedin /></Link>
+            <Link href="https://x.com/home?lang=en-in" className='hover:text-blue-400 text-3xl font-extralight transition-all duration-500 ease-in-out'><FaSquareTwitter /></Link>
+            <Link href="https://github.com/ApurvaChoudhary45" className='hover:text-gray-300 text-3xl font-extralight transition-all duration-500 ease-in-out'><FaGithub /></Link>
+            <Link href="https://www.linkedin.com/in/apurva-singh-choudhary-374991223/" className='hover:text-blue-700 text-3xl font-extralight transition-all duration-500 ease-in-out'><FaLinkedin /></Link>
             <div>
               <label className="relative w-14 h-8 cursor-pointer">
                 {/* Hidden checkbox */}
@@ -92,7 +92,7 @@ const Page = () => {
           </motion.nav>
 
         </div>
-        <div className='relative z-50 flex justify-center items-center px-20 py-7'>
+        <div className='relative z-50 flex justify-center items-center md:px-20 md:py-7'>
           <section className="text-center px-4 py-8 max-w-3xl mx-auto">
             <motion.h1 className={`md:text-6xl font-bold text-transparent mb-8 bg-clip-text  text-2xl ${daark ? 'bg-gradient-to-r from-teal-400 via-blue-500 to-purple-600' : 'text-white'}`} variants={container(1)} initial='initial' animate='animate'>My Projects</motion.h1>
             <motion.p className="text-white md:text-2xl  font-mono md:mt-20 mt-10 text-sm" variants={container(1.3)} initial='initial' animate='animate'>

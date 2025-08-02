@@ -31,7 +31,7 @@ const Landing = () => {
     return (
         <>
         <div className='relative min-h-screen overflow-hidden'>
-            <img src={daark ? "https://images.pexels.com/photos/753994/pexels-photo-753994.jpeg" : 'https://images.pexels.com/photos/814490/pexels-photo-814490.jpeg'} alt="" className='absolute inset-0 w-full h-full  object-fill' />
+            <img src={daark ? "https://images.pexels.com/photos/753994/pexels-photo-753994.jpeg" : 'https://images.pexels.com/photos/814490/pexels-photo-814490.jpeg'} alt="" className='absolute inset-0 w-full h-full  md:object-fill object-cover blur-xs' />
             <div className='relative z-50 md:flex justify-center items-center md:px-20 px-10 py-7'>
                 <div>
                     <motion.h1 className='md:text-4xl text-2xl font-mono p-3  text-white bg-clip-text font-bold' variants={container(0.5)} initial='initial' animate='animate'>apurva.codes</motion.h1>
@@ -39,9 +39,9 @@ const Landing = () => {
                 
                 <motion.nav className="w-full px-8 py-4 flex justify-end items-center gap-8 text-white " variants={container(1)} initial='initial' animate='animate'>
                     
-                    <Link href="https://x.com/home?lang=en-in" className='hover:text-blue-400 text-3xl font-extralight '><FaSquareTwitter/></Link>
-                    <Link href="https://github.com/ApurvaChoudhary45" className='hover:text-gray-300 text-3xl font-extralight'><FaGithub/></Link>
-                    <Link href="https://www.linkedin.com/in/apurva-singh-choudhary-374991223/" className='hover:text-blue-700 text-3xl font-extralight'><FaLinkedin/></Link>
+                    <Link href="https://x.com/home?lang=en-in" className='hover:text-blue-400 text-3xl font-extralight transition-all duration-500 ease-in-out'><FaSquareTwitter/></Link>
+                    <Link href="https://github.com/ApurvaChoudhary45" className='hover:text-gray-300 text-3xl font-extralight transition-all duration-500 ease-in-out'><FaGithub/></Link>
+                    <Link href="https://www.linkedin.com/in/apurva-singh-choudhary-374991223/" className='hover:text-blue-700 text-3xl font-extralight transition-all duration-500 ease-in-out'><FaLinkedin/></Link>
                     <label className="relative w-14 h-8 cursor-pointer">
                         {/* Hidden checkbox */}
                         <input type="checkbox" className="sr-only peer" onClick={switchMode} />
