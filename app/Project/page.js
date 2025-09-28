@@ -43,6 +43,15 @@ const projects = [
     github: "https://github.com/ApurvaChoudhary45/ShopMoze",
     live: "https://shop-moze.vercel.app/",
     image: "/picture/Ss4.png"
+  },
+  {
+    id: 5,
+    title: "Civic Pulse - Neighborhood complaint management platform",
+    description: "Built a neighborhood complaint management platform using Next.js, Tailwind CSS, and MongoDB Atlas.",
+    tech: ["React", "Redux Toolkit", "Tailwind", "NextJs", 'Kinde'],
+    github: "https://github.com/ApurvaChoudhary45/CivicPulse",
+    live: "https://civic-pulse-eight.vercel.app/",
+    image: "/picture/Ss5.png"
   }
 ];
 
