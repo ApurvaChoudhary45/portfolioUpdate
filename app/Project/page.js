@@ -52,6 +52,15 @@ const projects = [
     github: "https://github.com/ApurvaChoudhary45/CivicPulse",
     live: "https://civic-pulse-eight.vercel.app/",
     image: "/picture/Ss5.png"
+  },
+{
+    id: 6,
+    title: "Appointo - Smart Appointment Booking Platform",
+    description: "Appointo is a modern appointment booking platform enabling users to schedule, manage, and track bookings in real time. Built with Next.js and Clerk, it offers a responsive, intuitive, and performance-optimized experience for both users and admins.",
+    tech: ["React", "Redux Toolkit", "Tailwind", "NextJs", 'Clerk'],
+    github: "https://github.com/ApurvaChoudhary45/Appointo",
+    live: "https://appointo-three.vercel.app/",
+    image: "/picture/Ss6.png"
   }
 ];
 
